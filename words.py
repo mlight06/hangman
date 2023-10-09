@@ -1,0 +1,1 @@
+words = ["alligator", "elephant", "monkey", "spider", "lemur"]
