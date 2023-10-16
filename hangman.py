@@ -13,7 +13,7 @@ def hangman():
   alphabet = set(string.ascii_uppercase) #creates a set of letters from the alphabet
   used_letters = set() #empty set to track used letters
   print(word_letters, "word letter")
-  print(alphabet, "alphabet")
+  # print(alphabet, "alphabet")
   while len(word_letters) > 0:
     print('You have already used: ', ' '.join(used_letters))
 
@@ -31,7 +31,4 @@ def hangman():
       print("Invalid character")
   print("Congratulations, you've guessed the word!")
 
-
-
-get_valid_word(words)
 hangman()
